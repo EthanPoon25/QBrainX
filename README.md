@@ -4,14 +4,15 @@
 Drug discovery is a brutally large search problem. I wondered what if a system could “think” while it optimizes using quantum rigor for physics and a brain-like evaluator for taste. Quantum computing was such a great application, able to replicate responses of the brain and its response to different chemicals
 
 ## What I built
-1) A quantum-classical loop for molecular design:
+A quantum-classical loop for molecular design:
 
-Quantum GAN (PennyLane) that proposes molecular fingerprints. This can be used to find the optimal chemical balances
-VQE (Qiskit) estimates binding energies and convergence in real time. It's important to assess the effects that these drugs can have on the brain.
-A brain-inspired evaluator (adaptive, noise-aware neural system) scores candidates with evolving preferences. It is a major portion of the project, allowing us to consider what responses we would have in real life. 2) A live analytics UI:
-Node/WebSocket backend streams typed events (rewards, binding, synapses, molecules).
-React dashboard renders charts, heatmaps, and 3D structures (3Dmol.js).
-How it works (core idea)
+1) Quantum GAN (PennyLane) that proposes molecular fingerprints. This can be used to find the optimal chemical balances
+2) VQE (Qiskit) estimates binding energies and convergence in real time. It's important to assess the effects that these drugs can have on the brain.
+3) A brain-inspired evaluator (adaptive, noise-aware neural system) scores candidates with evolving preferences. It is a major portion of the project, allowing us to consider what responses we would have in real life. 2) A live analytics UI:
+4) Node/WebSocket backend streams typed events (rewards, binding, synapses, molecules).
+5) React dashboard renders charts, heatmaps, and 3D structures (3Dmol.js).
+
+## How it works (core idea)
 Instead of optimizing a single static metric, QBrainX co-evolves the generator, quantum binding energy, and brain-like reward:
 
 Instead of optimizing a single static metric, QBrainX co-evolves three components: the GAN generator, quantum-estimated binding energy, and an adaptive brain-like reward.

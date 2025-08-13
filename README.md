@@ -38,7 +38,8 @@ Dependency friction (e.g., heavy chem stacks like RDKit): I scoped to essentials
 Cross-runtime reliability: making Python print only JSON on stdout, routing logs to stderr, and handling Windows Python launchers (python vs py).
 Real-time UX: keeping charts smooth while running quantum simulations to which I added fallbacks and small payloads.
 Multi-objective stability: tuning (\lambda_{\text{VQE}}) and (\lambda_{\text{brain}}) to avoid mode collapse or trivial minima.
-Why it’s novel
+
+##Why it’s novel
 Most pipelines optimize a fixed score. QBrainx co-evolves a generator with quantum energy and an adaptive, brain-like preference signal, turning search from “lowest number wins” into “physics-aligned, goal-aware discovery.” Essentially, QBrainX is novel because it uses quantum computing’s ability to simulate real brain processes like neuron entanglement and synaptic dynamics, which classical computers can’t replicate. With advanced quantum AI to discover new drugs, creating a platform that “thinks” and adapts like a brain in real time (rather than long, tedious experiments with real subjects at risk) is extremely incredible. It enables breakthroughs in neuroscience and pharmaceutical research by directly modeling nature’s quantum complexity. Classical computing, no matter how powerful, can only test molecules and simulate brain processes sequentially, hitting hard limits in complexity and scale. QBrainX uses quantum mechanics to explore vast molecular and neural possibilities in parallel, revealing solutions and patterns that were computationally unreachable before. QBrainX uses quantum superposition to evaluate millions of drug molecules simultaneously, quantum entanglement to model complex brain functions, and hybrid quantum-classical learning to refine results in real time.
 
 # Getting Started with Create React App
